@@ -11,7 +11,7 @@ const BookContextProvider = (props) => {
     ]);
 
     const addBook = (title, author) => {
-        setBooks([ ...books, { title: title, author: author, id: uuid() }])
+        setBooks([ ...books, { title: title, author: author, id: uuid() }]);
     }
 
     const removeBook = (id) => {
