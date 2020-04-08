@@ -3,7 +3,7 @@ import { BookContext } from '../contexts/BookContext';
 
 import BookDetails from './BookDetails';
 
-const BookList = (props) => {
+const BookList = () => {
 
     const { books } = useContext(BookContext);
 
