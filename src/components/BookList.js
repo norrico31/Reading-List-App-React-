@@ -20,7 +20,7 @@ const BookList = (props) => {
     ) : (
 
         <div className="empty">
-            <p>No books to ReadableStream. hello free time.</p>
+            <p>No books to read. Hello free time.</p>
         </div>
     )
 }
